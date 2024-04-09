@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Simple Crud App</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class = "logo">Simple Crud App</div>
+    </header>
+
+    <div class="addStudent" id="newForm">
+        <form id="studentAdd">
+            <label for="studentname">Name: </label>
+            <input type="text" id="studentname" name="studentname" required><br>
+            <label for="study">Area of Study: </label>
+            <input type="text" id="study" name="study" required><br>
+            <label for="gpa">GPA: </label>
+            <input type="text" id="gpa" name="gpa" required><br>
+            <button type="submit" id="button4add">Add New Student</button>
+        </form>
+
+
+    </div>
+
+    <h2>List of Students:</h2>
+        <ul id="listS">
+        </ul>
+
+
+
+</body>
+</html>
